@@ -36,7 +36,7 @@ public class Variable07 {
 		// 실수 -> 정수 형변환 예
 		float iFloat2 = 3.1415f;
 		int iInt3 = (int)iFloat2;
-		System.out.println("iInt3: " + iInt3);
+		System.out.println("iInt3: " + iInt3); // 소수점이 없어진 상태로 출력
 		
 	}
 }
