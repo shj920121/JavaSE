@@ -39,7 +39,7 @@ package section05;
  * 
  * 
  */
-public class LoopHomeWork {
+public class LoopHomeWork3 {
 	public static void main(String[] args) {
 		//2~3번 , 4번
 		for(int i = 0; i < 7; i++) {
@@ -52,15 +52,7 @@ public class LoopHomeWork {
 					} else {
 						System.out.print("*");
 					}
-				} else {
-					if(i-j > 3) {
-						System.out.print(" ");
-					} else if (i+j > 9){
-						System.out.print(" ");
-					} else {
-						System.out.print("*");
-					} 
-				}																	
+				} 																	
 			}
 			System.out.println();
 		}							

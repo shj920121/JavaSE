@@ -39,20 +39,12 @@ package section05;
  * 
  * 
  */
-public class LoopHomeWork {
+public class LoopHomeWork3reverse {
 	public static void main(String[] args) {
 		//2~3번 , 4번
 		for(int i = 0; i < 7; i++) {
 			for(int j = 0; j < 7; j++) {
-				if(i < 4) {  
-					if(i+j < 3) {
-						System.out.print(" ");
-					} else if (j-i > 3) {
-						System.out.print(" ");						
-					} else {
-						System.out.print("*");
-					}
-				} else {
+				if(i > 2) {
 					if(i-j > 3) {
 						System.out.print(" ");
 					} else if (i+j > 9){
