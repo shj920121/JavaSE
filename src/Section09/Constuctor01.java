@@ -8,7 +8,7 @@ package Section09;
  * 	
  * 
  */
-public class Constucture01 {
+public class Constuctor01 {
 	public static void main(String[] args) {
 		
 		Book book1 = new Book();
