@@ -15,7 +15,7 @@ public class AniCharacter {
 		String[] items = {"대나무헬리콥터", "어디로든문"};
 		this.items = items;
 	}
-	
+	// 오버로딩
 	public AniCharacter(
 			String name,
 			String animation,
