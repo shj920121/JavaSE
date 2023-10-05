@@ -13,8 +13,10 @@ package section02;
 public class Variable03 {
 	public static void main(String[] args) {
 		byte num1 = 20;
+		
 		//byte num5 = 128; 
-		//byte에서 저장할 수 있는 숫자범위 (-128~+127)초과
+		//byte에서 저장할 수 있는 숫자범위 (-128~+127)초과되서 에러
+		
 		short num2 = 30;
 		int num3 = 40;
 		long num4 = 50;

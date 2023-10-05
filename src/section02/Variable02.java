@@ -19,6 +19,8 @@ public class Variable02 {
 		char ch2, ch3;
 		ch2 = '甲';
 		ch3 = '뷁';
+		
+		
 		System.out.println("ch2에 저장된 문자 " + ch2);
 		System.out.println("ch3에 저장된 문자 " + ch3);
 		
@@ -30,7 +32,7 @@ public class Variable02 {
 		System.out.println("숫자 66에 해당하는 문자 코드: " + ch4);
 		
 		
-		
+	
 		
 		
 	}
