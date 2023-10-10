@@ -15,6 +15,9 @@ import section12.access2.Playable;
 public class InterfaceClass01 {
 	public static void main(String[] args) {
 		
+//		Cat.PAW = 3; // 상수는 변경이 안된다
+		System.out.println(Cat.PAW);
+		
 //		Cat cat1 = new PersianCat();
 		Cat cat1 = new HouseCat(); // 수정이 용이하게 의존성?을 결합성?을 낮춘다.
 		eat(cat1);
