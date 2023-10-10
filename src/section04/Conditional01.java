@@ -22,8 +22,8 @@ public class Conditional01 {
 		if(num % 2 == 0) {
 			System.out.println("num은 짝수입니다.");			
 		}
-		if(num % 2 != 0) {
+		if(num % 2 != 0) 
 			System.out.println("num은 홀수입니다.");         // 한줄일 경우 중괄호 생략 가능
-		}
+		
 	}
 }
