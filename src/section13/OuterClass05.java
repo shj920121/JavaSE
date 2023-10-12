@@ -1,5 +1,6 @@
 package section13;
 
+import section13.access2.Bird;
 
 /*
  * 익명클래스(Anonymous Class)
@@ -12,17 +13,25 @@ public class OuterClass05 {
 	public static void main(String[] args) {
 	
 	
-		Bird bird = new Bird  () { // Bird 인터페이스를 상속받은 익명클래스이다.
-				
+		Bird bird = new Bird() {	// Bird 인터페이스를 상속받은 익명클래스 이다.
+			
 			@Override
-			 public void sing() {
+			public void sing() {
 				System.out.println("새가 노래를 해요~");
 			}
-				
+			
 			@Override
-				public void fly() {
-					System.out.println("하늘을 날아요~");
+			public void fly() {
+				System.out.println("하늘을 날아요~");
 			}
-		}
+			
+			public void printHello() {
+				System.out.println("안녕하세요~");
+			}
+			
+		};
+		
+		bird.sing();
+		bird.fly();
 	}
 }

@@ -1,6 +1,6 @@
 package section13.access2;
 
-public class Bird {
+public interface Bird {
 	
 	public void fly();
 	
