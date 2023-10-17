@@ -1,4 +1,7 @@
 package section06;
+
+import java.util.Arrays;
+
 /*
  * 배열 (Array)
  * 	같은 자료형의 변수를 지정하여 여러 데이터를 저장할 수 있는 
@@ -21,7 +24,7 @@ public class Array01 {
 		
 		System.out.println(nums);
 		System.out.println(nums2);
-		System.out.println(str);
+		System.out.println(Arrays.toString(str));
 		
 	}
 }
