@@ -18,6 +18,8 @@ public class JavaLang04 {
 		System.out.println(sb);
 		System.out.println(System.identityHashCode(sb));
 		
+		
+		
 		StringBuilder sb2 = new StringBuilder();
 		sb2.append("Hello,");
 		System.out.println(sb2);
