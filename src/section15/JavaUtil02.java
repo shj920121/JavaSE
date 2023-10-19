@@ -26,7 +26,8 @@ public class JavaUtil02 {
 		}
 		// 셔플된 수중 앞에 6개 뽑기
 		for(int i = 0; i < 6; i++) {
-			System.out.println(iArray[i] + "/");
+			
+			System.out.print(iArray[i] + "/");
 		}
 		
 		
