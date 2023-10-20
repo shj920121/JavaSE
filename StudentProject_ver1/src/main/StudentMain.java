@@ -55,7 +55,7 @@ public class StudentMain {
 				service.topRankStudent();
 				break;
 			case 7:
-				service.searchStudentName(sc);
+				service.searchNameStudent(sc);
 				break;
 			}
 		}

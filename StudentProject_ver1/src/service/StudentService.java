@@ -149,7 +149,7 @@ public class StudentService {
 
 	}
 
-	public void searchStudentName(Scanner sc) {
+	public void searchNameStudent(Scanner sc) {
 		System.out.println("학생정보 검색....");
 		
 		System.out.print("검색할 학생의 이름 : ");
