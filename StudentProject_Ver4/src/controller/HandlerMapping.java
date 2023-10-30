@@ -33,6 +33,7 @@ public class HandlerMapping {
 		case 6:
 			controller = new TopRankStudentController();
 			break;
+		
 		case 7:
 			controller = new SearchNameStudentController();
 			break;	

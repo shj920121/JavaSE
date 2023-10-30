@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import controller.Controller;
 import controller.HandlerMapping;
+import service.StudentService;
 
 public class StudentMain {
 	public static void main(String[] args) {
@@ -33,7 +34,7 @@ public class StudentMain {
 				controller.execute(sc);//컨트롤러 실행
 		}
 			
-		
+		StudentService.getInstance().saveStudentJSONFile();
 		
 	}
 
